@@ -1,3 +1,33 @@
-body {
-	background-color: pink;
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	gap: 0;
+}
+
+.slides {
+	height: 224px;
+	width: 2000px;
+	font-size: 0;
+	position: relative;
+}
+
+.frame {
+	height: 224px;
+	width: 400px;
+	overflow: hidden;
+}
+
+.buttons > button {
+	padding: 4px;
+	margin: 4px;
+	border: 2px solid black;
+}
+
+.buttons > button:hover {
+	cursor: pointer;
+}
+
+.buttons > button:active {
+	scale: 98%;
 }
