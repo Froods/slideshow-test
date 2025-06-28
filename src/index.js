@@ -1,5 +1,11 @@
 import './styles.css';
-import { right, left } from './modules/slideshow.js';
+import {
+	right,
+	left,
+	select,
+	addELstners,
+	resetTimer,
+} from './modules/slideshow.js';
 
 if (process.env.NODE_ENV !== 'production') {
 	console.log('Looks like we are in development mode!');
@@ -16,3 +22,9 @@ btnRight.addEventListener('click', () => {
 btnLeft.addEventListener('click', () => {
 	left(slideshow);
 });
+
+select(slideshow);
+
+addELstners(slideshow);
+
+resetTimer(slideshow);

@@ -16,6 +16,14 @@ ul {
 	gap: 32px;
 }
 
+li {
+	color: rgb(111, 111, 111);
+}
+
+.selected {
+	color: black;
+}
+
 li:hover {
 	cursor: pointer;
 }
